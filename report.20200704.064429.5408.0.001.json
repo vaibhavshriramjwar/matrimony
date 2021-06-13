@@ -1,0 +1,428 @@
+
+{
+  "header": {
+    "reportVersion": 1,
+    "event": "Allocation failed - JavaScript heap out of memory",
+    "trigger": "FatalError",
+    "filename": "report.20200704.064429.5408.0.001.json",
+    "dumpEventTime": "2020-07-04T06:44:29Z",
+    "dumpEventTimeStamp": "1593870269570",
+    "processId": 5408,
+    "cwd": "G:\\ReactNative\\anubandha",
+    "commandLine": [
+      "node",
+      "G:\\ReactNative\\anubandha\\node_modules\\react-native\\scripts\\..\\cli.js",
+      "start"
+    ],
+    "nodejsVersion": "v12.12.0",
+    "wordSize": 64,
+    "arch": "x64",
+    "platform": "win32",
+    "componentVersions": {
+      "node": "12.12.0",
+      "v8": "7.7.299.13-node.12",
+      "uv": "1.32.0",
+      "zlib": "1.2.11",
+      "brotli": "1.0.7",
+      "ares": "1.15.0",
+      "modules": "72",
+      "nghttp2": "1.39.2",
+      "napi": "5",
+      "llhttp": "1.1.4",
+      "http_parser": "2.8.0",
+      "openssl": "1.1.1d",
+      "cldr": "35.1",
+      "icu": "64.2",
+      "tz": "2019a",
+      "unicode": "12.1"
+    },
+    "release": {
+      "name": "node",
+      "headersUrl": "https://nodejs.org/download/release/v12.12.0/node-v12.12.0-headers.tar.gz",
+      "sourceUrl": "https://nodejs.org/download/release/v12.12.0/node-v12.12.0.tar.gz",
+      "libUrl": "https://nodejs.org/download/release/v12.12.0/win-x64/node.lib"
+    },
+    "osName": "Windows_NT",
+    "osRelease": "10.0.18363",
+    "osVersion": "Windows 10 Enterprise",
+    "osMachine": "x86_64",
+    "cpus": [
+      {
+        "model": "Intel(R) Core(TM) i3-4005U CPU @ 1.70GHz",
+        "speed": 1696,
+        "user": 9266515,
+        "nice": 0,
+        "sys": 7492281,
+        "idle": 38356000,
+        "irq": 595031
+      },
+      {
+        "model": "Intel(R) Core(TM) i3-4005U CPU @ 1.70GHz",
+        "speed": 1696,
+        "user": 9586484,
+        "nice": 0,
+        "sys": 6476937,
+        "idle": 39051015,
+        "irq": 144218
+      },
+      {
+        "model": "Intel(R) Core(TM) i3-4005U CPU @ 1.70GHz",
+        "speed": 1696,
+        "user": 10473468,
+        "nice": 0,
+        "sys": 6830437,
+        "idle": 37810515,
+        "irq": 74921
+      },
+      {
+        "model": "Intel(R) Core(TM) i3-4005U CPU @ 1.70GHz",
+        "speed": 1696,
+        "user": 9662421,
+        "nice": 0,
+        "sys": 6307031,
+        "idle": 39144968,
+        "irq": 64296
+      }
+    ],
+    "networkInterfaces": [
+      {
+        "name": "vEthernet (Internal Ethernet Port Windows Phone Emulator Internal Switch)",
+        "internal": false,
+        "mac": "00:15:5d:25:48:08",
+        "address": "fe80::1c9f:4f17:3011:f371",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 6
+      },
+      {
+        "name": "vEthernet (Internal Ethernet Port Windows Phone Emulator Internal Switch)",
+        "internal": false,
+        "mac": "00:15:5d:25:48:08",
+        "address": "169.254.80.80",
+        "netmask": "255.255.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "vEthernet (Dell Wireless 1705 802.11b g n (2.4GHZ) Virtual Switch)",
+        "internal": false,
+        "mac": "4c:bb:58:27:d3:af",
+        "address": "fe80::752d:9c54:f6d9:657e",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 27
+      },
+      {
+        "name": "vEthernet (Dell Wireless 1705 802.11b g n (2.4GHZ) Virtual Switch)",
+        "internal": false,
+        "mac": "4c:bb:58:27:d3:af",
+        "address": "192.168.43.223",
+        "netmask": "255.255.255.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "::1",
+        "netmask": "ffff:ffff:ffff:ffff:ffff:ffff:ffff:ffff",
+        "family": "IPv6",
+        "scopeid": 0
+      },
+      {
+        "name": "Loopback Pseudo-Interface 1",
+        "internal": true,
+        "mac": "00:00:00:00:00:00",
+        "address": "127.0.0.1",
+        "netmask": "255.0.0.0",
+        "family": "IPv4"
+      },
+      {
+        "name": "vEthernet (Default Switch)",
+        "internal": false,
+        "mac": "00:15:5d:60:d7:f3",
+        "address": "fe80::e40c:b703:6e40:a40c",
+        "netmask": "ffff:ffff:ffff:ffff::",
+        "family": "IPv6",
+        "scopeid": 28
+      },
+      {
+        "name": "vEthernet (Default Switch)",
+        "internal": false,
+        "mac": "00:15:5d:60:d7:f3",
+        "address": "172.18.90.161",
+        "netmask": "255.255.255.240",
+        "family": "IPv4"
+      }
+    ],
+    "host": "DESKTOP-CTMN1CN"
+  },
+  "javascriptStack": {
+    "message": "No stack.",
+    "stack": [
+      "Unavailable."
+    ]
+  },
+  "nativeStack": [
+    {
+      "pc": "0x00007ff6d15c1369",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d15c56fc",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d15c46a8",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d16b314b",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d1eb6d3e",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d1e9ed81",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d1d6c64c",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d1d74751",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d1d69db3",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d1d68584",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d1d89855",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d1af6029",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d22e2a5d",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d22e3991",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d231e2b1",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00007ff6d22cf605",
+      "symbol": ""
+    },
+    {
+      "pc": "0x00000384004a77c8",
+      "symbol": ""
+    }
+  ],
+  "javascriptHeap": {
+    "totalMemory": 54272000,
+    "totalCommittedMemory": 54272000,
+    "usedMemory": 49966064,
+    "availableMemory": 2098275768,
+    "memoryLimit": 2147483648,
+    "heapSpaces": {
+      "read_only_space": {
+        "memorySize": 262144,
+        "committedMemory": 262144,
+        "capacity": 261872,
+        "used": 32296,
+        "available": 229576
+      },
+      "new_space": {
+        "memorySize": 1048576,
+        "committedMemory": 1048576,
+        "capacity": 1047488,
+        "used": 1047488,
+        "available": 0
+      },
+      "old_space": {
+        "memorySize": 37597184,
+        "committedMemory": 37597184,
+        "capacity": 37472824,
+        "used": 34488440,
+        "available": 2984384
+      },
+      "code_space": {
+        "memorySize": 950272,
+        "committedMemory": 950272,
+        "capacity": 901120,
+        "used": 530144,
+        "available": 370976
+      },
+      "map_space": {
+        "memorySize": 1576960,
+        "committedMemory": 1576960,
+        "capacity": 1574736,
+        "used": 1143040,
+        "available": 431696
+      },
+      "large_object_space": {
+        "memorySize": 12787712,
+        "committedMemory": 12787712,
+        "capacity": 12721104,
+        "used": 12721104,
+        "available": 0
+      },
+      "code_large_object_space": {
+        "memorySize": 49152,
+        "committedMemory": 49152,
+        "capacity": 3552,
+        "used": 3552,
+        "available": 0
+      },
+      "new_large_object_space": {
+        "memorySize": 0,
+        "committedMemory": 0,
+        "capacity": 1047488,
+        "used": 0,
+        "available": 1047488
+      }
+    }
+  },
+  "resourceUsage": {
+    "userCpuSeconds": 46.875,
+    "kernelCpuSeconds": 34.906,
+    "cpuConsumptionPercent": 11.0069,
+    "maxRss": 181751808,
+    "pageFaults": {
+      "IORequired": 139765,
+      "IONotRequired": 0
+    },
+    "fsActivity": {
+      "reads": 2597,
+      "writes": 122
+    }
+  },
+  "libuv": [
+  ],
+  "environmentVariables": {
+    "": "C:=C:\\",
+    "": "G:=G:\\ReactNative\\anubandha",
+    "ADSK_3DSMAX_x64_2016": "C:\\Program Files\\Autodesk\\3ds Max 2016\\",
+    "ALLUSERSPROFILE": "C:\\ProgramData",
+    "ANDROID_HOME": "C:\\Users\\s\\AppData\\Local\\Android\\Sdk",
+    "APPDATA": "C:\\Users\\s\\AppData\\Roaming",
+    "ChocolateyInstall": "C:\\ProgramData\\chocolatey",
+    "ChocolateyLastPathUpdate": "132160319019281187",
+    "COLORTERM": "truecolor",
+    "CommonProgramFiles": "C:\\Program Files\\Common Files",
+    "CommonProgramFiles(x86)": "C:\\Program Files (x86)\\Common Files",
+    "CommonProgramW6432": "C:\\Program Files\\Common Files",
+    "COMPUTERNAME": "DESKTOP-CTMN1CN",
+    "ComSpec": "C:\\WINDOWS\\system32\\cmd.exe",
+    "dp0": "C:\\Users\\s\\AppData\\Roaming\\npm\\",
+    "DriverData": "C:\\Windows\\System32\\Drivers\\DriverData",
+    "FPS_BROWSER_APP_PROFILE_STRING": "Internet Explorer",
+    "FPS_BROWSER_USER_PROFILE_STRING": "Default",
+    "GOOGLE_DEFAULT_CLIENT_ID": "no",
+    "GOOGLE_DEFAULT_CLIENT_SECRET": "no",
+    "HOMEDRIVE": "C:",
+    "HOMEPATH": "\\Users\\s",
+    "ILBDIR": "C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\Materials\\",
+    "INTEL_DEV_REDIST": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\",
+    "JAVA_HOME": "C:\\Program Files\\Java\\jdk1.8.0_192",
+    "LANG": "en_US.UTF-8",
+    "LOCALAPPDATA": "C:\\Users\\s\\AppData\\Local",
+    "LOGONSERVER": "\\\\DESKTOP-CTMN1CN",
+    "MIC_LD_LIBRARY_PATH": "C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\compiler\\lib\\mic",
+    "MYSQLCONNECTOR_ASSEMBLIESPATH": "C:\\Program Files (x86)\\MySQL\\Connector NET 8.0\\Assemblies\\v4.5.2",
+    "NUMBER_OF_PROCESSORS": "4",
+    "OneDrive": "C:\\Users\\s\\OneDrive",
+    "ORIGINAL_XDG_CURRENT_DESKTOP": "undefined",
+    "OS": "Windows_NT",
+    "Path": "G:\\ReactNative\\anubandha\\node_modules\\react-native\\scripts\\node_modules\\.bin;G:\\ReactNative\\anubandha\\node_modules\\react-native\\node_modules\\.bin;G:\\ReactNative\\anubandha\\node_modules\\node_modules\\.bin;G:\\ReactNative\\anubandha\\node_modules\\.bin;G:\\ReactNative\\node_modules\\.bin;G:\\node_modules\\.bin;C:\\Program Files\\nodejs;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64\\compiler;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;C:\\Program Files (x86)\\Common Files\\Autodesk Shared\\;C:\\Program Files\\Common Files\\Autodesk Shared\\;C:\\Program Files (x86)\\Autodesk\\Backburner\\;C:\\Program Files\\nodejs\\;C:\\ProgramData\\chocolatey\\bin;C:\\php-7;C:\\Program Files\\Microsoft SQL Server\\120\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft Emulator Manager\\1.0\\;C:\\Program Files\\MySQL\\MySQL Shell 8.0\\bin\\;C:\\Users\\s\\AppData\\Local\\Programs\\Python\\Python37\\Scripts\\;C:\\Users\\s\\AppData\\Local\\Programs\\Python\\Python37\\;C:\\Users\\s\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\s\\AppData\\Roaming\\npm;G:\\Microsoft VS Code\\bin;C:\\Users\\s\\AppData\\Local\\Android\\Sdk\\platform-tools;",
+    "PATHEXT": ".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JSE;.WSF;.WSH;.MSC",
+    "PROCESSOR_ARCHITECTURE": "AMD64",
+    "PROCESSOR_IDENTIFIER": "Intel64 Family 6 Model 69 Stepping 1, GenuineIntel",
+    "PROCESSOR_LEVEL": "6",
+    "PROCESSOR_REVISION": "4501",
+    "ProgramData": "C:\\ProgramData",
+    "ProgramFiles": "C:\\Program Files",
+    "ProgramFiles(x86)": "C:\\Program Files (x86)",
+    "ProgramW6432": "C:\\Program Files",
+    "PROMPT": "$P$G",
+    "PSModulePath": "C:\\Program Files\\WindowsPowerShell\\Modules;C:\\WINDOWS\\system32\\WindowsPowerShell\\v1.0\\Modules",
+    "PUBLIC": "C:\\Users\\Public",
+    "RCT_METRO_PORT": "8081",
+    "SESSIONNAME": "Console",
+    "SynaProgDir": "Synaptics\\SynTP",
+    "SystemDrive": "C:",
+    "SystemRoot": "C:\\WINDOWS",
+    "TEMP": "C:\\Users\\s\\AppData\\Local\\Temp",
+    "TERM_PROGRAM": "vscode",
+    "TERM_PROGRAM_VERSION": "1.46.1",
+    "TMP": "C:\\Users\\s\\AppData\\Local\\Temp",
+    "USERDOMAIN": "DESKTOP-CTMN1CN",
+    "USERDOMAIN_ROAMINGPROFILE": "DESKTOP-CTMN1CN",
+    "USERNAME": "s",
+    "USERPROFILE": "C:\\Users\\s",
+    "VS140COMNTOOLS": "H:\\Visual Studio\\Common7\\Tools\\",
+    "windir": "C:\\WINDOWS",
+    "_prog": "node"
+  },
+  "sharedObjects": [
+    "C:\\Program Files\\nodejs\\node.exe",
+    "C:\\WINDOWS\\SYSTEM32\\ntdll.dll",
+    "C:\\WINDOWS\\System32\\KERNEL32.DLL",
+    "C:\\WINDOWS\\System32\\KERNELBASE.dll",
+    "C:\\WINDOWS\\System32\\WS2_32.dll",
+    "C:\\WINDOWS\\System32\\RPCRT4.dll",
+    "C:\\WINDOWS\\System32\\ADVAPI32.dll",
+    "C:\\WINDOWS\\System32\\msvcrt.dll",
+    "C:\\WINDOWS\\System32\\sechost.dll",
+    "C:\\WINDOWS\\System32\\USER32.dll",
+    "C:\\WINDOWS\\System32\\win32u.dll",
+    "C:\\WINDOWS\\System32\\GDI32.dll",
+    "C:\\WINDOWS\\System32\\gdi32full.dll",
+    "C:\\WINDOWS\\System32\\msvcp_win.dll",
+    "C:\\WINDOWS\\System32\\ucrtbase.dll",
+    "C:\\WINDOWS\\System32\\PSAPI.DLL",
+    "C:\\WINDOWS\\System32\\CRYPT32.dll",
+    "C:\\WINDOWS\\System32\\MSASN1.dll",
+    "C:\\WINDOWS\\System32\\bcrypt.dll",
+    "C:\\WINDOWS\\SYSTEM32\\dbghelp.dll",
+    "C:\\WINDOWS\\SYSTEM32\\IPHLPAPI.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\USERENV.dll",
+    "C:\\WINDOWS\\System32\\profapi.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMM.dll",
+    "C:\\WINDOWS\\SYSTEM32\\WINMMBASE.dll",
+    "C:\\WINDOWS\\System32\\cfgmgr32.dll",
+    "C:\\WINDOWS\\System32\\bcryptPrimitives.dll",
+    "C:\\WINDOWS\\System32\\IMM32.DLL",
+    "C:\\WINDOWS\\System32\\powrprof.dll",
+    "C:\\WINDOWS\\System32\\UMPDC.dll",
+    "C:\\WINDOWS\\system32\\uxtheme.dll",
+    "C:\\WINDOWS\\System32\\combase.dll",
+    "C:\\WINDOWS\\system32\\mswsock.dll",
+    "C:\\WINDOWS\\System32\\kernel.appcore.dll",
+    "C:\\WINDOWS\\system32\\napinsp.dll",
+    "C:\\WINDOWS\\system32\\pnrpnsp.dll",
+    "C:\\WINDOWS\\SYSTEM32\\DNSAPI.dll",
+    "C:\\WINDOWS\\System32\\NSI.dll",
+    "C:\\WINDOWS\\System32\\winrnr.dll",
+    "C:\\WINDOWS\\system32\\NLAapi.dll",
+    "C:\\WINDOWS\\system32\\wshbth.dll",
+    "C:\\WINDOWS\\SYSTEM32\\CRYPTBASE.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc6.DLL",
+    "C:\\WINDOWS\\SYSTEM32\\dhcpcsvc.DLL",
+    "C:\\Windows\\System32\\rasadhlp.dll"
+  ]
+}
